@@ -13,7 +13,8 @@
 }
 
 .escalator-list__items {
-	
+	overflow: hidden;
+	position: relative;
 }
 
 .escalator-list__item {
