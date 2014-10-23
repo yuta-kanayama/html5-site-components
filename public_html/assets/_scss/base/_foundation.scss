@@ -1,0 +1,36 @@
+/*
+# 下地 / Foundation
+
+サイト全体に関わるスタイルを書いてください。
+reset.cssやNormalize.cssもここに含まれます。
+*/
+
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, video {
+	display: block;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+	min-height: 100%;
+	font: 14px/1.4 "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
+}
+
+hr {
+	display: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+a {
+	
+}
+
+.clearfix {
+	@include legacy-pie-clearfix;
+}

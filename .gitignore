@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+
+node_modules/
+.sass-cache/
+
+*.psd
+*.ai
+
+gitignore/
+
+/release.zip
+/release/
