@@ -1,0 +1,38 @@
+/*
+# .escalator-list
+*/
+
+@import "compass",
+        "tools/font-size/ptp-14",
+        "tools/mixins",
+        "tools/functions",
+        "tools/site-setting";
+
+.escalator-list {
+	
+}
+
+.escalator-list__items {
+	
+}
+
+.escalator-list__item {
+	padding: 10px;
+	border-bottom: solid 1px #ccc;
+	.l-wrapper {
+		
+	}
+	.l-inner {
+		display: block;
+		@include legacy-pie-clearfix;
+	}
+	.l-primary {
+		float: left;
+	}
+	.l-secondary {
+		overflow: hidden;
+		position: relative;
+		padding: .5em 0 0 10px;
+	}
+}
+
